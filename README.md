@@ -5,7 +5,7 @@ Save a local copy of your openmailbox emails without using IMAP
 Today, in August 2017, [openmailbox.org](https://openmailbox.org) has changed its service by requiring people to pay for IMAP. No warning was given for this, and I have not been able to find a simple way to download all of my emails from the server.
 
 ## How this tool works
-This tool requires Python 3.
+This tool requires Python 3 and requests library. Make sure to install it either via pip by `pip3 install -r requirements.txt`, `pip3 install requests` or through package manager, e.g. in Ubuntu `apt-get install python3-requests`.
 
 To use this tool, you need to [log in to openmailbox's webmail](https://app.openmailbox.org/login).
 
